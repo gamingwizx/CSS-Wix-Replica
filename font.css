@@ -1,0 +1,36 @@
+@font-face {
+  font-family: helveticaneue;
+  src: url("fonts/HelveticaNeueLight.otf");
+}
+@font-face {
+  font-family: helveticaneue-ultra-light;
+  src: url("fonts/HelveticaNeueUltraLight.otf");
+}
+@font-face {
+  font-family: helveticaneue-light;
+  src: url("fonts/HelveticaNeueLight.otf");
+}
+@font-face {
+  font-family: helveticaneue-thin;
+  src: url("fonts/HelveticaNeueThin.otf");
+}
+@font-face {
+  font-family: helveticaneue-regular;
+  src: url("fonts/HelveticaNeueHeavy.otf");
+}
+
+.helveticaneue {
+  font-family: helveticaneue;
+}
+.helveticaneue-ultra-light {
+  font-family: helveticaneue-ultra-light;
+}
+.helveticaneue-light {
+  font-family: helveticaneue-light;
+}
+.helveticaneue-thin {
+  font-family: helveticaneue-thin;
+}
+.helveticaneue-regular {
+  font-family: helveticaneue-regular;
+}
