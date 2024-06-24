@@ -15,7 +15,7 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <header>
+    <header class="bg-white">
       <div class="container container--header">
         <a href="" class="logo"
           ><svg
@@ -38,7 +38,7 @@
         </a>
         <nav class="nav">
           <ul class="text-black nav__list">
-            <li class="fs-small nav__item">
+            <li class="fs-small nav__item border-top">
               <a href="" class="nav__link text-black">Product</a>
             </li>
             <li class="fs-small nav__item">
@@ -47,34 +47,48 @@
             <li class="fs-small nav__item">
               <a href="" class="nav__link text-black">Resources</a>
             </li>
-            <li class="fs-small nav__item space">
+            <li class="fs-small nav__item space border-bottom">
               <a href="" class="text-black nav__link">Pricing</a>
             </li>
-            <li class="text-gray">|</li>
+            <li class="text-gray seperator">|</li>
             <li class="fs-small nav__item">
               <a href="" class="nav__link text-black">Wix Studio</a>
             </li>
-            <li class="fs-small nav__item">
+            <li class="fs-small nav__item border-bottom">
               <a href="" class="nav__link text-black">Enterprise</a>
+            </li>
+            <li
+              class="nav__item nav__item--language nav__item--language-mobile border-bottom"
+            >
+              <a href="" type="button" class="fs-small language">
+                <img src="img/primary-header-1.svg" />
+                English
+              </a>
             </li>
           </ul>
           <ul class="text-black nav__list">
-            <li class="nav__item nav__item--language">
+            <li
+              class="nav__item nav__item--language nav__item--language-desktop"
+            >
               <a href="" type="button" class="language">
                 <img src="img/primary-header-1.svg" />
               </a>
             </li>
-            <span class="text-gray">|</span>
+            <span class="text-gray seperator">|</span>
             <li class="nav__item space">
-              <a href="" class="text-black nav__link log-in">Log In</a>
+              <a href="" class="text-black fs-small nav__link log-in">Log In</a>
             </li>
             <li class="nav__item">
-              <a href="" class="nav__link bg-blue text-white button"
+              <a href="" class="nav__link bg-blue fs-small text-white button"
                 >Get Started</a
               >
             </li>
           </ul>
+          <div class="gutter bg-white"></div>
         </nav>
+        <a href="" type="button" class="hamburger"
+          ><img src="img/hamburger.png" alt=""
+        /></a>
       </div>
     </header>
     <main>
@@ -103,27 +117,35 @@
       </section>
       <section class="bg-white secondary-content">
         <div class="container container--secondary-content">
-          <h2 class="fs-large01 helveticaneue-thin text-black">
+          <h2
+            class="fs-large01 fs-large01--secondary-content helveticaneue-thin text-black"
+          >
             One platform, infinite possibilities
           </h2>
           <div class="row row--secondary-content">
             <div class="col col--secondary-content">
               <h3 class="text-black">Build a website</h3>
-              <p class="text-black fs-small helveticaneue-light">
+              <p
+                class="text-black fs-small fs-small--secondary-content helveticaneue-light"
+              >
                 Design with a full suite of intuitive tools and powerful AI to
                 create the site you want.
               </p>
             </div>
             <div class="col col--secondary-content">
               <h3 class="text-black">Manage your business</h3>
-              <p class="text-black fs-small helveticaneue-light">
+              <p
+                class="text-black fs-small helveticaneue-light fs-small--secondary-content"
+              >
                 Streamline your day-to-day with built-in business solutions,
                 tailored to your needs.
               </p>
             </div>
             <div class="col col--secondary-content">
               <h3 class="text-black">Grow online</h3>
-              <p class="text-black fs-small helveticaneue-light">
+              <p
+                class="text-black fs-small fs-small--secondary-content helveticaneue-light"
+              >
                 Expand your reach and monetize your website with integrated
                 tools built for your success.
               </p>
@@ -139,7 +161,7 @@
       <section class="third-content bg-black">
         <div class="container container--third-content">
           <h3
-            class="h3--third-content text-white fs-large01 helveticaneue-light"
+            class="h3--third-content text-white fs-large01 fs-large01--third-content helveticaneue-light"
           >
             Website templates that set you up for success
           </h3>
@@ -163,7 +185,7 @@
       </section>
       <section class="bg-white forth-content">
         <div class="container container--forth-content">
-          <h4 class="fs-large01 helveticaneue-thin">
+          <h4 class="fs-large01 fs-large01--forth-content helveticaneue-thin">
             Build more than a websie
           </h4>
           <div class="forth-content--right">
@@ -180,22 +202,40 @@
           </div>
         </div>
       </section>
-      <section class="fifth-content bg-purple">
+      <section class="fifth-content bg-light-purple">
         <div class="container container--fifth-content">
           <div class="fifth-content--left">
             <div class="fifth-content--left__content">
-              <h2 class="helveticaneue-light text-black fs-regular01">
+              <h2
+                class="helveticaneue-thin text-black fs-regular01 fs-regular01--fifth-content"
+              >
                 Customize it your way
               </h2>
-              <ul class="text-black fs-small">
-                <li>Intuitive drag and drop website editor</li>
-                <li>1000’s of advanced web design capabilities</li>
-                <li>Powerful AI features for smart customization</li>
-                <li>Full-stack web dev tools for custom functionality</li>
+              <ul class="list-item--fifth-content text-black">
+                <li
+                  class="fs-medium fs-medium--fifth-content helveticaneue-light"
+                >
+                  Intuitive drag and drop website editor
+                </li>
+                <li
+                  class="fs-medium fs-medium--fifth-content helveticaneue-light"
+                >
+                  1000’s of advanced web design capabilities
+                </li>
+                <li
+                  class="fs-medium fs-medium--fifth-content helveticaneue-light"
+                >
+                  Powerful AI features for smart customization
+                </li>
+                <li
+                  class="fs-medium fs-medium--fifth-content helveticaneue-light"
+                >
+                  Full-stack web dev tools for custom functionality
+                </li>
               </ul>
               <a
                 href=""
-                class="get-started bg-black text-white button button--secondary-content fs-medium"
+                class="bg-black text-white get-started button button--secondary-content fs-medium"
                 >Get Started</a
               >
             </div>
@@ -207,14 +247,14 @@
       </section>
       <section class="seventh-content bg-beach">
         <div class="container container--seventh-content">
-          <h2 class="helveticaneue-thin fs-large01">
+          <h2 class="helveticaneue-thin fs-large01 fs-large01--seventh-content">
             A website builder engineered for growth
           </h2>
           <div class="row row--seventh-content">
             <div class="col">
               <h3 class="fs-medium">
                 Faster Loading
-                <p class="light fs-medium01">
+                <p class="light fs-medium01 fs-medium--seventh-content">
                   Wix is designed for performance so your site loads faster.
                 </p>
               </h3>
@@ -222,7 +262,7 @@
             <div class="col">
               <h3 class="fs-medium">
                 Built with SEO in mind
-                <p class="light fs-medium01">
+                <p class="light fs-medium01 fs-medium--seventh-content">
                   Get the SEO capabilities you need to optimize your site for
                   search visibility.
                 </p>
@@ -231,7 +271,7 @@
             <div class="col">
               <h3 class="fs-medium">
                 Enterprise-grade security
-                <p class="light fs-medium01">
+                <p class="light fs-medium01 fs-medium--seventh-content">
                   We keep your site and visitors’ data protected, 24/7.
                 </p>
               </h3>
@@ -239,7 +279,7 @@
             <div class="col">
               <h3 class="fs-medium">
                 Resilient infrastructure
-                <p class="light fs-medium01">
+                <p class="light fs-medium01 fs-medium--seventh-content">
                   Multi-cloud hosting ensures 99.9% uptime, even during traffic
                   spikes.
                 </p>
@@ -248,7 +288,7 @@
             <div class="col">
               <h3 class="fs-medium">
                 Accessible for everyone
-                <p class="light fs-medium01">
+                <p class="light fs-medium01 fs-medium--seventh-content">
                   Make your own website inclusive with built-in accessibility
                   tools.
                 </p>
@@ -257,7 +297,7 @@
           </div>
           <a
             href=""
-            class="get-started bg-black text-white button button--sixth-content fs-medium"
+            class="get-started bg-black text-white button button--sixth-content fs-medium fs-medium--seventh-content"
             >Get Started</a
           >
         </div>
@@ -265,109 +305,136 @@
 
       <section class="eigth-content">
         <div class="container container--eight-content">
-          <h2 class="text-black fs-large01 helveticaneue-thin">
+          <h2
+            class="text-black fs-large01 fs-large01--eight-content helveticaneue-thin"
+          >
             Take your business where it needs to go
           </h2>
           <div class="row row--eight-content">
             <div class="col col--eight-content">
               <img src="img/content-section-4.webp" alt="" />
               <div class="col-content">
-                <h3 class="fs-medium">eCommerce</h3>
-                <p class="text-black">
+                <h3 class="fs-medium fs-medium--eight-content">eCommerce</h3>
+                <p class="text-black fs-medium">
                   Sell online and manage your business with powerful eCommerce
                   solutions.
                 </p>
-                <div class="row">
-                  <a
-                    href=""
-                    class="helveticaneue-light get-started bold text-black"
-                    ><span>Create your eCommerce Site</span>
-                    <img class="arrow-icon" src="img/arrow.svg"
-                  /></a>
-                  <a
-                    href=""
-                    class="helveticaneue-light get-started bold text-black"
-                    ><span>Learn How</span>
-                    <img class="arrow-icon" src="img/arrow.svg"
-                  /></a>
+              </div>
+              <div class="row-content">
+                <div class="row-content__link">
+                  <a class="tes" href="">
+                    <span
+                      class="fs-medium helveticaneue-light fs-medium--eight-content bold text-black"
+                      >Create your own blog</span
+                    >
+                    <img class="arrow-icon" src="img/arrow.svg" />
+                  </a>
+                </div>
+                <div class="row-content__link">
+                  <a class="tes" href="">
+                    <span
+                      class="fs-medium helveticaneue-light fs-medium--eight-content bold text-black"
+                      >Learn More</span
+                    >
+                    <img class="arrow-icon" src="img/arrow.svg" />
+                  </a>
                 </div>
               </div>
             </div>
             <div class="col col--eight-content">
               <img src="img/content-section-4.webp" alt="" />
               <div class="col-content">
-                <h3 class="fs-medium">Blog</h3>
-                <p class="text-black">
+                <h3 class="fs-medium fs-medium--eight-content">Blog</h3>
+                <p class="text-black fs-medium">
                   Create a free blog, grow a loyal audience and monetize your
                   content.
                 </p>
-                <div class="row">
-                  <a
-                    href=""
-                    class="helveticaneue-light get-started bold text-black"
-                    ><span>Create your own blog</span>
-                    <img class="arrow-icon" src="img/arrow.svg"
-                  /></a>
-                  <a
-                    href=""
-                    class="helveticaneue-light get-started bold text-black"
-                    ><span>Learn How</span>
-                    <img class="arrow-icon" src="img/arrow.svg"
-                  /></a>
+              </div>
+              <div class="row-content">
+                <div class="row-content__link">
+                  <a class="tes" href="">
+                    <span
+                      class="fs-medium helveticaneue-light fs-medium--eight-content bold text-black"
+                      >Create your own blog</span
+                    >
+                    <img class="arrow-icon" src="img/arrow.svg" />
+                  </a>
+                </div>
+                <div class="row-content__link">
+                  <a class="tes" href="">
+                    <span
+                      class="fs-medium helveticaneue-light fs-medium--eight-content bold text-black"
+                      >Learn More</span
+                    >
+                    <img class="arrow-icon" src="img/arrow.svg" />
+                  </a>
                 </div>
               </div>
             </div>
             <div class="col col--eight-content">
               <img src="img/content-section-4.webp" alt="" />
               <div class="col-content">
-                <h3 class="fs-medium">Scheduling software</h3>
-                <p class="text-black">
+                <h3 class="fs-medium fs-medium--eight-content">
+                  Scheduling software
+                </h3>
+                <p class="text-black fs-medium">
                   Offer your services and deliver a seamless booking experience
                   for your clients.
                 </p>
-                <div class="row">
-                  <a
-                    href=""
-                    class="helveticaneue-light get-started bold text-black"
-                    ><span>Add Your Service</span>
-                    <img class="arrow-icon" src="img/arrow.svg"
-                  /></a>
+              </div>
+              <div class="row-content">
+                <div class="row-content__link">
+                  <a class="tes" href="">
+                    <span
+                      class="fs-medium helveticaneue-light fs-medium--eight-content bold text-black"
+                      >Learn More</span
+                    >
+                    <img class="arrow-icon" src="img/arrow.svg" />
+                  </a>
                 </div>
               </div>
             </div>
             <div class="col col--eight-content">
               <img src="img/content-section-4.webp" alt="" />
               <div class="col-content">
-                <h3 class="fs-medium">Portfolio</h3>
-                <p class="text-black">
+                <h3 class="fs-medium fs-medium--eight-content">Portfolio</h3>
+                <p class="text-black fs-medium">
                   Increase your visibility and attract new clients with your
                   work.
                 </p>
-                <div class="row">
-                  <a
-                    href=""
-                    class="helveticaneue-light get-started bold text-black"
-                    ><span>Create Your Portfolio</span>
-                    <img class="arrow-icon" src="img/arrow.svg"
-                  /></a>
+              </div>
+              <div class="row-content">
+                <div class="row-content__link">
+                  <a class="tes" href="">
+                    <span
+                      class="fs-medium helveticaneue-light fs-medium--eight-content bold text-black"
+                      >Create your own blog</span
+                    >
+                    <img class="arrow-icon" src="img/arrow.svg" />
+                  </a>
                 </div>
               </div>
             </div>
             <div class="col col--eight-content">
               <img src="img/content-section-4.webp" alt="" />
               <div class="col-content">
-                <h3 class="fs-medium">Domain and hosting</h3>
-                <p class="text-black">
+                <h3 class="fs-medium fs-medium--eight-content">
+                  Domain and hosting
+                </h3>
+                <p class="text-black fs-medium">
                   Get scalable, free web hosting when you create your own
                   website, and connect a professional domain name.
                 </p>
-                <div class="row">
-                  <a
-                    href=""
-                    class="helveticaneue-light get-started bold text-black"
-                    ><span>Create a site</span>
-                    <img class="arrow-icon" src="img/arrow.svg"
-                  /></a>
+              </div>
+              <div class="row-content">
+                <div class="row-content__link">
+                  <a class="tes" href="">
+                    <span
+                      class="fs-medium helveticaneue-light fs-medium--eight-content bold text-black"
+                      >Create your own blog</span
+                    >
+                    <img class="arrow-icon" src="img/arrow.svg" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -375,17 +442,20 @@
               <img src="img/content-section-4.webp" alt="" />
               <div class="col-content">
                 <h3 class="fs-medium">Branding tools</h3>
-                <p class="text-black">
+                <p class="text-black fs-medium">
                   Establish a strong brand identity with a customizable logo,
                   color and text themes, and more.
                 </p>
-                <div class="row">
-                  <a
-                    href=""
-                    class="helveticaneue-light get-started bold text-black"
-                    ><span>Learn More</span>
-                    <img class="arrow-icon" src="img/arrow.svg"
-                  /></a>
+              </div>
+              <div class="row-content">
+                <div class="row-content__link">
+                  <a class="tes" href="">
+                    <span
+                      class="fs-medium helveticaneue-light fs-medium--eight-content bold text-black"
+                      >Learn More</span
+                    >
+                    <img class="arrow-icon" src="img/arrow.svg" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -396,14 +466,16 @@
         <div class="container container--sixth-content">
           <div class="sixth-content--left">
             <div class="fs-medium sixth-content--left__content">
-              <h2 class="helveticaneue-thin text-white fs-large01">
+              <h2
+                class="helveticaneue-thin text-white fs-large01 fs-large01--sixth-content"
+              >
                 Drive traffic that converts
               </h2>
-              <div class="item-list__sixth-content">
+              <div class="item-list-container__sixth-content">
                 <p class="text-white">
                   Promote your business and reach the right audience:
                 </p>
-                <ul>
+                <ul class="item-list__sixth-content">
                   <li class="text-white">Complete SEO solution</li>
                   <li class="text-white">AI-driven FB & IG Ads</li>
                   <li class="text-white">Email campaigns</li>
@@ -417,9 +489,9 @@
               >
             </div>
           </div>
-        </div>
-        <div class="sixth-content--right">
-          <img src="img/content-section-5.webp" />
+          <div class="sixth-content--right">
+            <img src="img/content-section-5.webp" />
+          </div>
         </div>
       </section>
       <section class="ninth-content">
@@ -428,7 +500,7 @@
             <img src="img/content-section-9.png" alt="" />
           </div>
           <div class="right--ninth-content">
-            <h2 class="fs-large01 helveticaneue-thin">
+            <h2 class="fs-large01 fs-large01--ninth-content helveticaneue-thin">
               Manage your business like a pro
             </h2>
             <p class="helveticaneue-light fs-medium">
@@ -479,7 +551,7 @@
               </li>
             </ul>
           </div>
-          <div class="row">
+          <div class="row row--tenth-content">
             <a
               href=""
               class="get-started bg-black text-white button button--ninth-content fs-medium"
@@ -495,31 +567,41 @@
       <section class="eleventh-content bg-black">
         <div class="container bg-black container--eleventh-content row">
           <div class="left--eleventh-content">
-            <h2 class="fs-large01 helveticaneue-light text-white">
+            <h2
+              class="fs-large01 fs-large01--eleventh-content helveticaneue-light text-white"
+            >
               Get inspired, gain new skills and see what’s trending
             </h2>
             <a
               href=""
-              class="get-started bg-white text-black button button--ninth-content fs-medium"
+              class="get-started bg-white text-black button button--eleventh-content fs-medium"
               >Explore the Blog</a
             >
           </div>
           <div class="right--eleventh-content row">
             <div class="col col--eleventh-content bg-white">
               <img src="img/content-section-7.webp" alt="" />
-              <span class="bold">How to design a website in 2024</span>
+              <span class="bold fs-small01"
+                >How to design a website in 2024</span
+              >
             </div>
             <div class="col col--eleventh-content bg-white">
               <img src="img/content-section-7.webp" alt="" />
-              <span class="bold">How to design a website in 2024</span>
+              <span class="bold fs-small01"
+                >How to design a website in 2024</span
+              >
             </div>
             <div class="col col--eleventh-content bg-white">
               <img src="img/content-section-7.webp" alt="" />
-              <span class="bold">How to design a website in 2024</span>
+              <span class="bold fs-small01"
+                >How to design a website in 2024</span
+              >
             </div>
             <div class="col col--eleventh-content bg-white">
               <img src="img/content-section-7.webp" alt="" />
-              <span class="bold">How to design a website in 2024</span>
+              <span class="bold fs-small01"
+                >How to design a website in 2024</span
+              >
             </div>
           </div>
         </div>
@@ -557,9 +639,7 @@
               million people worldwide have chosen us to grow online. You can,
               too
             </p>
-            <a
-              href=""
-              class="get-started bg-black text-white button button--ninth-content fs-medium"
+            <a href="" class="bg-black text-white button fs-medium"
               >Get Started</a
             >
           </div>
@@ -577,8 +657,10 @@
                 Watch tutorials and read detailed articles in the Wix Help
                 Center.
               </p>
-              <a href="" class="helveticaneue-light get-started bold text-black"
-                ><span>Learn More</span>
+              <a
+                href=""
+                class="helveticaneue-light underline underline--thirteenth-content bold text-black"
+                ><span class="fs-medium">Learn More</span>
                 <img class="arrow-icon" src="img/arrow.svg"
               /></a>
             </div>
@@ -588,8 +670,10 @@
                 Get support by chat or schedule a call with a Customer Care
                 Expert.
               </p>
-              <a href="" class="helveticaneue-light get-started bold text-black"
-                ><span>Chat with Us</span>
+              <a
+                href=""
+                class="helveticaneue-light underline--thirteenth-content underline bold text-black"
+                ><span class="fs-medium">Chat with Us</span>
                 <img class="arrow-icon" src="img/arrow.svg"
               /></a>
             </div>
@@ -598,8 +682,10 @@
               <p class="helveticaneue-light">
                 Get help at any stage—from site creation to online growth.
               </p>
-              <a href="" class="helveticaneue-light get-started bold text-black"
-                ><span>Browse All Services</span>
+              <a
+                href=""
+                class="helveticaneue-light underline--thirteenth-content underline bold text-black"
+                ><span class="fs-medium">Browse All Services</span>
                 <img class="arrow-icon" src="img/arrow.svg"
               /></a>
             </div>

@@ -5,22 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      li {
-        margin-bottom: 1rem;
+      .test {
+        width: 80%;
+        background-color: red;
+        flex-shrink: 1;
+        display: flex;
       }
-      a {
-        text-decoration: none;
-        padding-bottom: 0.5em;
-        border-bottom: 1px solid black;
+      .a {
+        flex: 1;
+        background-color: aqua;
+      }
+      .b {
+        flex: 1;
+        background-color: blue;
+      }
+      .c {
+        flex: 3;
+        background-color: green;
       }
     </style>
   </head>
   <body>
-    <ul style="line-height: 1em; list-style-type: decimal">
-      <li>a</li>
-      <li>b</li>
-      <li>c</li>
-    </ul>
-    <a href="">Get Started</a>
+    <div class="test">
+      <div class="a">a</div>
+      <div class="b">a</div>
+      <div class="c">a</div>
+    </div>
   </body>
 </html>
