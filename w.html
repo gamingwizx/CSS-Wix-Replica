@@ -23,13 +23,18 @@
         flex: 3;
         background-color: green;
       }
+      .test1 {
+        font-size: clamp(
+          30px,
+          calc(20px + (36-20) * (100vw - 768) / (1920 - 768)),
+          70px
+        );
+      }
     </style>
   </head>
   <body>
     <div class="test">
-      <div class="a">a</div>
-      <div class="b">a</div>
-      <div class="c">a</div>
+      <p class="test1">Test</p>
     </div>
   </body>
 </html>
