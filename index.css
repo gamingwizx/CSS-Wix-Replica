@@ -35,7 +35,6 @@
 }
 body {
   margin: 0;
-  line-height: 1.5em;
   font-family: "Wix Madefor Display", sans-serif;
 }
 img {
@@ -397,6 +396,7 @@ header {
   }
   .image-container {
     max-width: 70%;
+    margin: 2em 0;
   }
 }
 /* Second section */
@@ -455,9 +455,6 @@ header {
   }
   .fs-medium {
     font-size: 30px;
-  }
-  .fs-large01--secondary-content {
-    font-size: var(--fs-mobile-large01);
   }
 }
 /* Third secton*/
@@ -530,10 +527,6 @@ header {
   .container--third-content > * + * {
     margin-top: 2em;
   }
-  .fs-large01--third-content {
-    font-size: var(--fs-mobile-large01);
-    letter-spacing: 0.05em;
-  }
   .carousel {
     width: 100%;
   }
@@ -580,10 +573,6 @@ header {
   .forth-content--right {
     line-height: 2em;
     width: 100%;
-  }
-  .fs-large01--forth-content {
-    font-size: var(--fs-mobile-large01);
-    letter-spacing: 0.05em;
   }
 }
 /* Fifth content */
@@ -729,9 +718,6 @@ header {
 .button--sixth-content {
   display: inline-block;
 }
-.fs-large01--eleventh-content {
-  font-size: var(--fs-mobile-large01);
-}
 @media (max-width: 1200px) {
   .sixth-content--right {
     flex-basis: 60%;
@@ -741,9 +727,6 @@ header {
   }
 }
 @media (max-width: 1000px) {
-  .fs-large01--sixth-content {
-    font-size: clamp(30px, 2vw + 0.5rem, 50px);
-  }
 }
 @media (max-width: 800px) {
   .sixth-content {
@@ -760,7 +743,7 @@ header {
     min-width: 90%;
   }
   .item-list__sixth-content {
-    margin-left: 2em;
+    margin-left: 1em;
   }
   .sixth-content .text-white {
     color: var(--clr-black);
@@ -905,9 +888,6 @@ header {
   flex-basis: 40%;
 }
 @media (max-width: 1200px) {
-  .fs-large01--eight-content {
-    font-size: clamp(25px, 2vw + 0.5rem, 50px);
-  }
   .row--eight-content {
     gap: 2vw;
   }
@@ -945,9 +925,6 @@ header {
   }
   .col--eight-content {
     padding: 0.5em 0;
-  }
-  .fs-large01--eight-content {
-    font-size: var(--fs-mobile-large01);
   }
 }
 /* Ninth Content */
@@ -995,9 +972,6 @@ header {
   .right--ninth-content .get-started {
     margin-top: 0.5em;
     display: inline-block;
-  }
-  .fs-large01--ninth-content {
-    font-size: var(--fs-mobile-large01);
   }
 }
 /* Tenth Content */
@@ -1089,9 +1063,6 @@ header {
   }
   .right--eleventh-content {
     width: 55%;
-  }
-  .fs-large01--eleventh-content {
-    font-size: clamp(40px, 2vw + 0.5rem, 80px);
   }
 }
 @media (max-width: 800px) {
@@ -1307,6 +1278,7 @@ header {
 }
 @media (max-width: 800px) {
   .fs-medium {
+    line-height: 1.5em;
     font-size: var(--fs-mobile-medium);
   }
   .fs-medium1 {
