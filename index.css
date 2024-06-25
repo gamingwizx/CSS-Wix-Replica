@@ -300,6 +300,14 @@ header {
     width: 100%;
     position: relative;
   }
+  .logo img {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .hamburger {
+    flex-basis: auto;
+  }
 }
 .col {
   flex-direction: column;
@@ -526,6 +534,9 @@ header {
     letter-spacing: 0.05em;
   }
   .carousel {
+    width: 100%;
+  }
+  .carousel img {
     width: 100%;
   }
 }
@@ -802,12 +813,6 @@ header {
   }
   .container--seventh-content h2 {
     width: 100%;
-  }
-  .fs-medium--seventh-content {
-    font-size: 40px;
-  }
-  .fs-large01--seventh-content {
-    font-size: var(--fs-mobile-large01);
   }
   .container--seventh-content {
     width: 90%;
@@ -1300,9 +1305,30 @@ header {
   } */
 }
 @media (max-width: 800px) {
-  /* .fs-medium {
-    font-size: 40px;
-  } */
+  .fs-medium {
+    font-size: var(--fs-mobile-medium);
+  }
+  .fs-medium1 {
+    font-size: var(--fs-mobile-medium1);
+  }
+  .fs-large {
+    font-size: var(--fs-mobile-large);
+  }
+  .fs-large01 {
+    font-size: var(--fs-mobile-large01);
+  }
+  .fs-regular {
+    font-size: var(--fs-mobile-regular);
+  }
+  .fs-regular01 {
+    font-size: var(--fs-mobile-regular01);
+  }
+  .fs-small {
+    font-size: var(--fs-mobile-small);
+  }
+  .fs-small01 {
+    font-size: var(--fs-mobile-small01);
+  }
   .row {
     flex-direction: column;
   }
