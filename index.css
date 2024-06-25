@@ -1009,6 +1009,11 @@ header {
 .row--tenth-content {
   display: block;
 }
+@media (max-width: 800px) {
+  .container--tenth-content {
+    width: 90%;
+  }
+}
 /* Eleventh content */
 .container--eleventh-content {
   width: 90%;
@@ -1120,7 +1125,7 @@ header {
 /* Thirteenth content */
 .container--thirteenth-content {
   padding: max(3em, 9vw) 0;
-  width: 70%;
+  width: 90%;
 }
 .h2--thirtheenth-content {
   margin: 1em 1em 1em 0;
@@ -1304,5 +1309,8 @@ header {
   }
   .row {
     flex-direction: column;
+  }
+  .container {
+    width: 90%;
   }
 }
